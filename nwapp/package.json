@@ -1,21 +1,21 @@
 {
-  "main": "index.html",
-  "name": "nw-demo",
-  "description": "demo app of NW.js",
+  "main": "/views/index.html",
+  "name": "4YouSeeTest",
+  "description": "4YouSeeTest",
   "version": "0.1.0",
-  "keywords": [ "demo", "NW.js" ],
+  "keywords": [ "4YouSeeTest"],
   "window": {
-    "title": "NW.js demo",
+    "title": "4YouSeeTest",
     "icon": "link.png",
     "toolbar": false,
     "frame": true,
-    "width": 800,
-    "height": 500,
+    "width": 1200,
+    "height": 680,
     "position": "center",
-    "min_width": 400,
-    "min_height": 200,
-    "max_width": 800,
-    "max_height": 600
+    "min_width": 1200,
+    "min_height": 680,
+    "max_width": 1200,
+    "max_height": 680
   },
   "webkit": {
     "plugin": true
