@@ -28,7 +28,7 @@
             <a class="navbar-brand js-scroll-trigger" href="#page-top">4YouSeeTest</a>
         </div>
     </nav>
-    
+
     <!-- Search Section -->
     <section class="mt-50">
         <div class="container">
@@ -37,25 +37,36 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Title</label>
-                                <input class="form-control" id="title" type="text" placeholder="Title">
+                            <div class="form-group">
+                                <label for="title"><strong>Title:</strong></label>
+                                <input type="text" class="form-control" id="title" placeholder="Title here">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Type</label>
-                                <input class="form-control" id="type" type="text" placeholder="Type">
+                            <div class="form-group">
+                                <label for="category"><strong>Category:</strong></label>
+                                <select class="form-control" id="category">
+                                    <option value="">Choose a category</option>
+                                    <option value="entertainment">Entertainment</option>
+                                    <option value="sports">Sports</option>
+                                    <option value="business">Business</option>
+                                    <option value="news">News</option>
+                                </select>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Category</label>
-                                <input class="form-control" id="category" type="text" placeholder="Category">
+                            <div class="form-group">
+                                <label for="type"><strong>Type:</strong></label>
+                                <select class="form-control" id="type">
+                                    <option value="">Choose a type</option>
+                                    <option value="image">Image</option>
+                                    <option value="video">Video</option>
+                                    <option value="rss">RSS</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -64,6 +75,25 @@
                             <button type="submit" class="btn btn-primary btn-search"><i class="fa fa-search"></i></button>
                             <button type="submit" class="btn btn-primary btn-eraser"><i class="fa fa-eraser"></i></button>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-result">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="table-search" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Title</th>
+                                    <th>Category</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>                    
                     </div>
                 </div>
             </div>
