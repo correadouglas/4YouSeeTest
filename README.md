@@ -8,7 +8,9 @@ Projects Used
 ------------
 
 NW.js - https://nwjs.io/
+
 nw-builder - https://github.com/nwjs-community/nw-builder
+
 Start Bootstrap - https://startbootstrap.com/template-overviews/freelancer/
 
 ---
